@@ -44,13 +44,13 @@ class _MyHomePageState extends State<MyHomePage> {
       ScreenHiddenDrawer(ItemHiddenMenu(
           name: 'Home Page',
           baseStyle: TextStyle(fontSize: 18),
-          selectedStyle: TextStyle(fontSize: 18),
+          selectedStyle: TextStyle(color:Colors.white,fontSize: 18),
         colorLineSelected: Colors.deepPurple
       ), HomePage()),
       ScreenHiddenDrawer(ItemHiddenMenu(
           name: 'Setting page',
           baseStyle: TextStyle(fontSize: 18),
-          selectedStyle: TextStyle(fontSize: 18),
+          selectedStyle: TextStyle(color:Colors.white,fontSize: 18),
           colorLineSelected: Colors.deepPurple
       ), SettingPage()),
     ];
